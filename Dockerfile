@@ -23,7 +23,7 @@ RUN mkdir /src
 
 RUN cd /src ; git clone https://dev.netzob.org/git/netzob.git 
 
-RUN cd /src ; python setup.py build
+RUN cd /src/netzob ; python setup.py build
 
 
 
